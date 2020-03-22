@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-  color: #00ACBBEC0;
+  color: #ACBBEC;
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
@@ -130,23 +130,25 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   visibility: visible;
 }
 
+.testimonial-carousel {
+	background-image:url("fondpapier.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .testimonial-wrap {
   padding: 50px 50px 80px 50px;
-  background: #eceff2;
+  /*background: #eceff2;*/
 }
-
 .testimonial-wrap .testimonial {
   text-align: center;
   max-width: 500px;
   margin: 0 auto;
 }
-
 .testimonial-wrap .testimonial img {
   border-radius: 50%;
   width: 120px;
   margin: 0 auto 30px auto;
 }
-
 .testimonial-wrap .testimonial blockquote p {
   font-size: 20px;
 }
@@ -154,15 +156,12 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .h3 {
   font-size: 20px;
 }
-
 .h4 {
   font-size: 16px;
 }
-
 .heading {
   font-size: 28px;
 }
-
 .readmore {
   display: inline-block;
   border: 1px solid #000;
@@ -173,24 +172,20 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   transition: .2s all ease;
   font-weight: 700;
 }
-
 .readmore:active, .readmore:focus, .readmore:hover {
   outline: none;
 }
-
 .readmore:hover {
   color: #fff;
   text-decoration: none;
   background: #000;
 }
-
 .testimonial-carousel .owl-dots {
   position: absolute;
   bottom: 40px;
   width: 100%;
   text-align: center;
 }
-
 .testimonial-carousel .owl-dots .owl-dot {
   display: inline-block;
 }
@@ -199,17 +194,15 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   display: inline-block;
   width: 7px;
   height: 7px;
-  background-color: #BBB59E;
+  background-color: #fff;
   border-radius: 50%;
   margin: 5px;
 }
-
 .testimonial-carousel .owl-dots .owl-dot.active {
   outline: none;
 }
-
 .testimonial-carousel .owl-dots .owl-dot.active > span {
-  background: #ACBBEC;
+  background: #8B6914;
 }
 
 .sticky-content {
@@ -267,27 +260,22 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .custom-navmenu {
   background: #ACBBEC;
 }
-
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-
 .custom-navmenu .custom-menu li {
   margin-bottom: 0;
   font-size: 20px;
 }
-
 .custom-navmenu .custom-menu li a {
   color: #fff;
   padding: 10px 0 !important;
 }
-
 .custom-navmenu .custom-menu li a:hover {
   text-decoration: none;
 }
-
 .custom-navmenu .custom-menu li.active a {
   text-decoration: underline;
 }
@@ -296,35 +284,30 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 20px;
   color: #fff;
 }
-
 .custom-navmenu p {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .custom-navmenu a {
   color: rgba(255, 255, 255, 0.7);
 }
-
 .custom-navmenu a:hover {
   color: #fff;
 }
-
 /* Custom Navbar */
 .custom-navbar {
   padding-top: 50px;
   width: 100%;
 }
-
 @media (max-width: 780px) {
   .custom-navbar > .container {
     padding-right: 0;
     padding-left: 0;
   }
 }
-
 .custom-navbar .navbar-brand {
   font-size: 1.7rem;
-   border-bottom: 1px dotted #ACBBEC;
+  color: #ACBBEC;
+  border-bottom: 1px dotted #ACBBEC;
 }
 
 /* BURGER */
@@ -334,61 +317,49 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   cursor: pointer;
   position: relative;
 }
-
 .burger:before, .burger span, .burger:after {
   width: 100%;
   height: 2px;
   display: block;
-  background: #000;
+  background: #ACBBEC;
   border-radius: 2px;
   position: absolute;
   opacity: 1;
 }
-
 .burger:before, .burger:after {
   transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1), transform 0.35s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.35s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
   content: "";
 }
-
 .burger:before {
   top: 4px;
 }
-
 .burger span {
   top: 15px;
 }
-
 .burger:after {
   top: 26px;
 }
-
 /* Hover */
 .burger:hover:before {
   top: 7px;
 }
-
 .burger:hover:after {
   top: 23px;
 }
-
 /* Click */
 .burger.active span {
   opacity: 0;
 }
-
 .burger.active:before, .burger.active:after {
   top: 40%;
 }
-
 .burger.active:before {
   transform: rotate(45deg);
 }
-
 .burger.active:after {
   transform: rotate(-45deg);
 }
-
 .burger:focus {
   outline: none;
 }
@@ -398,7 +369,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding: 0 0 4rem 0;
   border-top: 1px dotted #ACBBEC;
 }
-
 .footer a {
   color: #000;
 }
