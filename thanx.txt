@@ -1,0 +1,8 @@
+Merci à:
+--------
+	- Aux Maîtres qui m'ont guidé et tous ceux qui m'ont inspiré.
+	- Laetitia pour sa collaboration, ses révisions et ses idées pertinantes.
+	- Iker pour le "design".
+	- https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/, pour la template.
+	- Bootstrap, jquery, lightbox, owl.carousel, icofont, line-awesome, pour la technique et le style.
+
