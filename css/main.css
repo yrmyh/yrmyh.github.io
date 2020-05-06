@@ -1,14 +1,14 @@
 /* GENERAL */
 body {
   font-family: "Inconsolata", monospace;
-  color: #0d1e2d;
+  color: #5c5146;
 }
 /* Links */
 a {
   color: #777;
 }
 a:hover {
-  color: #000;
+  color: #5c5146;
 }
 /* Titles */
 h1, h2, h3, h4, h5, h6, .font-heading {
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 /* HEADER */
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #ACBBEC;
+  background: #F5D390;
 }
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
   padding: 0;
@@ -75,9 +75,14 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 .custom-navbar .navbar-brand {
   font-size: 1.7rem;
-  color: #ACBBEC;
-  border-bottom: 1px dotted #ACBBEC;
+  color: #F5D390;
 }
+
+nav {
+	border-bottom: 1px dotted #F5D390;
+}
+
+
 /* Miam */
 .miam {
   width: 28px;
@@ -89,7 +94,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   width: 100%;
   height: 2px;
   display: block;
-  background: #ACBBEC;
+  background: #F5D390;
   border-radius: 2px;
   position: absolute;
   opacity: 1;
@@ -198,17 +203,17 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .icofont-simple-up {
-	color: #000;
+	color: #5c5146;
 	font-size: 30px;
 }
 
 /* FOOTER */
 .footer {
   padding: 0 0 4rem 0;
-  border-top: 1px dotted #ACBBEC;
+  border-top: 1px dotted #F5D390;
 }
 .footer a {
-  color: #000;
+  color: #5c5146;
   font-size: 14px;
 }
 .footer p {
